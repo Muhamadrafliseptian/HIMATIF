@@ -13,8 +13,7 @@
           <li class="dropdown"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Sejarah</a></li>
-              <li><a href="#">Visi Misi</a></li>
-              <li><a href="#">Struktural</a></li>
+              <li><a href="{{ url('/') }}">Visi Misi</a></li>
               <li><a href="#">Orasi</a></li>
             </ul>
           </li>
@@ -23,6 +22,32 @@
               <li><a href="#">Study Club</a></li>
               <li><a href="#">Manajemen Asset</a></li>
               <li><a href="#">Suarakan!</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Divisi</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="{{ url('/divisi/bph') }}">BPH</a></li>
+              <li class="dropdown"><a href="#"><span>PSDM</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="">Kaderisasi</a></li>
+                  <li><a href="#">Keakrabann</a></li>
+                  <li><a href="#">Manajemen Aset</a></li>
+                </ul>
+              </li>
+               <li class="dropdown"><a href="#"><span>Riset dan Teknologi</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Ristek</a></li>
+                  <li><a href="#">Kompetisi</a></li>
+                  <li><a href="#">Study Club</a></li>
+                </ul>
+              </li>
+               <li class="dropdown"><a href="#"><span>Hubungan Masyarakat</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Humas Internal</a></li>
+                  <li><a href="#">Humas Eksternal</a></li>
+                  <li><a href="#">Infokom</a></li>
+                </ul>
+              </li>
             </ul>
           </li>
           <li><a class="nav-link scrollto " href="#portfolio">Event</a></li>

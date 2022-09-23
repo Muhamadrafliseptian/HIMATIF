@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('wargahimatif.menu.home');
 });
+
+Route::get('/divisi/bph', function () {
+    return view('wargahimatif.menu.divisi.bph.index');
+});
