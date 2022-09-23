@@ -237,6 +237,7 @@ h6 {
     background: #fff;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
+    border-radius: 5px;
 }
 
 .navbar .dropdown ul li {
@@ -434,7 +435,7 @@ h6 {
 }
 
 #hero h1 span {
-    border-bottom: 4px solid #3498db;
+    border-bottom: 4px solid #ffa70f;
 }
 
 #hero h2 {
@@ -501,6 +502,62 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# What We Do
+--------------------------------------------------------------*/
+.what-we-do .icon-box {
+    text-align: center;
+    padding: 30px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #f8f8f8;
+    border-radius: 10px;
+}
+
+.what-we-do .icon-box .icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: #fbf2ea;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: ease-in-out 0.3s;
+}
+
+.what-we-do .icon-box .icon i {
+    color: #ffb444;
+    font-size: 28px;
+}
+
+.what-we-do .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.what-we-do .icon-box h4 a {
+    color: #464138;
+    transition: ease-in-out 0.3s;
+}
+
+.what-we-do .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.what-we-do .icon-box:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.what-we-do .icon-box:hover h4 a,
+.what-we-do .icon-box:hover .icon i {
+    color: #c57600;
+}
+
+/*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
@@ -524,7 +581,7 @@ section {
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #37517e;
+    color: #284760;
 }
 
 .section-title h2::before {
@@ -1645,7 +1702,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
     font-size: 14px;
-    background: #37517e;
+    background: #091e41;
 }
 
 #footer .footer-newsletter {
@@ -1653,7 +1710,7 @@ section {
     background: #f3f5fa;
     text-align: center;
     font-size: 15px;
-    color: #444444;
+    color: #ffffff;
 }
 
 #footer .footer-newsletter h4 {
@@ -1703,7 +1760,7 @@ section {
 
 #footer .footer-top {
     padding: 60px 0 30px 0;
-    background: #fff;
+    background: rgb(2, 0, 12);
 }
 
 #footer .footer-top .footer-contact {
@@ -1717,7 +1774,7 @@ section {
     line-height: 1;
     text-transform: uppercase;
     font-weight: 600;
-    color: #37517e;
+    color: #ffffff;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1725,13 +1782,13 @@ section {
     line-height: 24px;
     margin-bottom: 0;
     font-family: "Jost", sans-serif;
-    color: #5e5e5e;
+    color: #c4c4c4;
 }
 
 #footer .footer-top h4 {
     font-size: 16px;
     font-weight: bold;
-    color: #37517e;
+    color: #ffffff;
     position: relative;
     padding-bottom: 12px;
 }
@@ -1748,7 +1805,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
     padding-right: 2px;
-    color: #47b2e4;
+    color: #c4c4c4;
     font-size: 18px;
     line-height: 1;
 }
@@ -1764,7 +1821,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-    color: #777777;
+    color: #c4c4c4;
     transition: 0.3s;
     display: inline-block;
     line-height: 1;
@@ -1772,7 +1829,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
     text-decoration: none;
-    color: #47b2e4;
+    color: #ffffff;
 }
 
 #footer .footer-top .social-links a {

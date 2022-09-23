@@ -7,14 +7,14 @@
     <div class="container text-center text-md-left" data-aos="fade-up">
       <h1>Welcome to <span>Himatif Website</span></h1>
       <h2>JAYA JAYA JAYA!</h2>
-      <a href="#about" class="btn-get-started scrollto">Jelajahi</a>
+      <a href="{{ url('about_us') }}" class="btn-get-started scrollto">Jelajahi</a>
     </div>
   </section>
-{{-- <section id="what-we-do" class="what-we-do">
+<section id="what-we-do" class="what-we-do">
       <div class="container">
 
         <div class="section-title">
-          <h2>What We Do</h2>
+          <h2>Kabinet Teddy</h2>
           <p>Magnam dolores commodi suscipit consequatur ex aliquid</p>
         </div>
 
@@ -46,5 +46,5 @@
         </div>
 
       </div>
-    </section> --}}
+    </section>
 @endsection
