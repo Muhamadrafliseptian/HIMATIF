@@ -9,10 +9,10 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto active" href="{{ url('/') }}">Home</a></li>
           <li class="dropdown"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Sejarah</a></li>
+              <li><a href="{{ url('/about_us/sejarah') }}">Sejarah</a></li>
               <li><a href="{{ url('/') }}">Visi Misi</a></li>
               <li><a href="#">Orasi</a></li>
             </ul>
