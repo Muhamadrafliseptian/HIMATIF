@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/divisi/bph', function () {
     return view('wargahimatif.menu.divisi.bph.index');
 });
+
+Route::get('/about_us/sejarah', function () {
+    return view('wargahimatif.menu.about_us.sejarah');
+});
+
+Route::get('/program/study_club', function () {
+    return view('wargahimatif.menu.program.study_club');
+});

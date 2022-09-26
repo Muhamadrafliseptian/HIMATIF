@@ -948,52 +948,49 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
     text-align: center;
-    border: 1px solid #d5e1ed;
-    padding: 80px 20px;
+    padding: 70px 20px 80px 20px;
     transition: all ease-in-out 0.3s;
-    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
 .services .icon-box .icon {
     margin: 0 auto;
-    width: 64px;
-    height: 64px;
-    background: #1977cc;
-    border-radius: 5px;
-    transition: all 0.3s ease-out 0s;
+    width: 100px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
-    transform-style: preserve-3d;
+    transition: ease-in-out 0.3s;
+    position: relative;
 }
 
 .services .icon-box .icon i {
-    color: rgb(255, 255, 255);
-    font-size: 28px;
+    font-size: 36px;
+    transition: 0.5s;
+    position: relative;
 }
 
-.services .icon-box .icon::before {
+.services .icon-box .icon svg {
     position: absolute;
-    content: "";
-    left: -8px;
-    top: -8px;
-    height: 100%;
-    width: 100%;
-    background: #badaf7;
-    border-radius: 5px;
-    transition: all 0.3s ease-out 0s;
-    transform: translateZ(-1px);
+    top: 0;
+    left: 0;
+}
+
+.services .icon-box .icon svg path {
+    transition: 0.5s;
+    fill: #f5f5f5;
 }
 
 .services .icon-box h4 {
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
 }
 
 .services .icon-box h4 a {
-    color: #2c4964;
+    color: #434175;
+    transition: ease-in-out 0.3s;
 }
 
 .services .icon-box p {
@@ -1003,25 +1000,234 @@ section {
 }
 
 .services .icon-box:hover {
-    background: #1977cc;
-    border-color: #1977cc;
+    border-color: #fff;
+    box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
-.services .icon-box:hover .icon {
-    background: #fff;
+.services .iconbox-blue i {
+    color: #47aeff;
 }
 
-.services .icon-box:hover .icon i {
-    color: #1977cc;
-}
-
-.services .icon-box:hover .icon::before {
-    background: #3291e6;
-}
-
-.services .icon-box:hover h4 a,
-.services .icon-box:hover p {
+.services .iconbox-blue:hover .icon i {
     color: #fff;
+}
+
+.services .iconbox-blue:hover .icon path {
+    fill: #47aeff;
+}
+
+.services .iconbox-orange i {
+    color: #ffa76e;
+}
+
+.services .iconbox-orange:hover .icon i {
+    color: #fff;
+}
+
+.services .iconbox-orange:hover .icon path {
+    fill: #ffa76e;
+}
+
+.services .iconbox-pink i {
+    color: #e80368;
+}
+
+.services .iconbox-pink:hover .icon i {
+    color: #fff;
+}
+
+.services .iconbox-pink:hover .icon path {
+    fill: #e80368;
+}
+
+.services .iconbox-teal i {
+    color: #11dbcf;
+}
+
+.services .iconbox-teal:hover .icon i {
+    color: #fff;
+}
+
+.services .iconbox-teal:hover .icon path {
+    fill: #11dbcf;
+}
+
+/*--------------------------------------------------------------
+# sejarah
+--------------------------------------------------------------*/
+.sejarah .content {
+    background-color: #f6f9ff;
+    padding: 40px;
+}
+
+.sejarah h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #4154f1;
+    text-transform: uppercase;
+}
+
+.sejarah h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #012970;
+}
+
+.sejarah p {
+    margin: 15px 0 30px 0;
+    line-height: 24px;
+}
+
+.sejarah .btn-read-more {
+    line-height: 0;
+    padding: 15px 40px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #4154f1;
+    box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+}
+
+.sejarah .btn-read-more span {
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.sejarah .btn-read-more i {
+    margin-left: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.sejarah .btn-read-more:hover i {
+    transform: translateX(5px);
+}
+
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features .feature-box {
+    padding: 24px 20px;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    transition: 0.3s;
+    height: 100%;
+}
+
+.features .feature-box h3 {
+    font-size: 18px;
+    color: #012970;
+    font-weight: 700;
+    margin: 0;
+}
+
+.features .feature-box i {
+    line-height: 0;
+    background: #ecf3ff;
+    padding: 4px;
+    margin-right: 10px;
+    font-size: 24px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.features .feature-box:hover i {
+    background: #4154f1;
+    color: #fff;
+}
+
+.features .feture-tabs {
+    margin-top: 120px;
+}
+
+.features .feture-tabs h3 {
+    color: #012970;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .features .feture-tabs h3 {
+        font-size: 28px;
+    }
+}
+
+.features .feture-tabs .nav-pills {
+    border-bottom: 1px solid #eee;
+}
+
+.features .feture-tabs .nav-link {
+    background: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    color: #012970;
+    padding: 12px 0;
+    margin-right: 25px;
+    margin-bottom: -2px;
+    border-radius: 0;
+}
+
+.features .feture-tabs .nav-link.active {
+    color: #4154f1;
+    border-bottom: 3px solid #4154f1;
+}
+
+.features .feture-tabs .tab-content h4 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 700;
+    color: #012970;
+}
+
+.features .feture-tabs .tab-content i {
+    font-size: 24px;
+    line-height: 0;
+    margin-right: 8px;
+    color: #4154f1;
+}
+
+.features .feature-icons {
+    margin-top: 120px;
+}
+
+.features .feature-icons h3 {
+    color: #012970;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .features .feature-icons h3 {
+        font-size: 28px;
+    }
+}
+
+.features .feature-icons .content .icon-box {
+    display: flex;
+}
+
+.features .feature-icons .content .icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    color: #012970;
+}
+
+.features .feature-icons .content .icon-box i {
+    font-size: 44px;
+    line-height: 44px;
+    color: #0245bc;
+    margin-right: 15px;
+}
+
+.features .feature-icons .content .icon-box p {
+    font-size: 15px;
+    color: #848484;
 }
 
 /*--------------------------------------------------------------
@@ -1180,6 +1386,27 @@ section {
 
 .doctors .member .social a + a {
     margin-left: 8px;
+}
+
+.card {
+    background-color: #ffffff;
+    box-shadow: 2px 4px 4px 2px rgb(235, 235, 235);
+    border-radius: 5px;
+    border: none;
+}
+
+.card .card-text {
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+.card .card-body .btn {
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+.search .text-end .dropdown-menu .dropdown-item {
+    font-size: 12px;
 }
 
 /*--------------------------------------------------------------

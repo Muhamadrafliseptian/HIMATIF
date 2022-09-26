@@ -19,7 +19,7 @@
           </li>
           <li class="dropdown"><a href="#"><span>Program</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Study Club</a></li>
+              <li><a href="{{ url('program/study_club') }}">Pustaka Informatika</a></li>
               <li><a href="#">Manajemen Asset</a></li>
               <li><a href="#">Suarakan!</a></li>
             </ul>
