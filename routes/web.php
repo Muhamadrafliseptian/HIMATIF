@@ -28,3 +28,11 @@ Route::get('/about_us/sejarah', function () {
 Route::get('/program/study_club', function () {
     return view('wargahimatif.menu.program.study_club');
 });
+
+Route::get('/event', function () {
+    return view('wargahimatif.menu.event.index');
+});
+
+Route::get('/galeri', function () {
+    return view('wargahimatif.menu.galeri.index');
+});
