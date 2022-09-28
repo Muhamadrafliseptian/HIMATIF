@@ -751,7 +751,7 @@
                             <figure>
                                 <div class="team-image sm-w-100">
                                     <img src="https://via.placeholder.com/700x892" alt="">
-                                    <div class="overlay-content text-center d-flex align-items-center justify-content-center">p
+                                    <div class="overlay-content text-center d-flex align-items-center justify-content-center">
                                         <div class="icon-social-small">
                                             <a href="http://facebook.com" target="_blank" class="text-white-2 text-white-2-hover"><i class="fab fa-facebook-f"></i></a>
                                             <a href="http://twitter.com" target="_blank" class="text-white-2 text-white-2-hover"><i class="fab fa-twitter"></i></a>
@@ -852,12 +852,12 @@
         <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
         <!-- end scroll to top  -->
         <!-- javascript -->
-        <script type="text/javascript" src="js/jquery.min.js"></script>
-        <script type="text/javascript" src="js/bootsnav.js"></script>
-        <script type="text/javascript" src="js/jquery.nav.js"></script>
-        <script type="text/javascript" src="js/hamburger-menu.js"></script>
-        <script type="text/javascript" src="js/theme-vendors.min.js"></script>
+        <script type="text/javascript" src="{{ HTML::script( 'js/jquery.min.js')}}"></script>
+        <script type="text/javascript" src="{{ HTML::script( 'js/bootsnav.js' )}}"></script>
+        <script type="text/javascript" src="{{ HTML::script( 'js/jquery.nav.js' )}}"></script>
+        <script type="text/javascript" src="{{ HTML::script( 'js/hamburger-menu.js' )}}"></script>
+        <script type="text/javascript" src="{{ HTML::script( 'js/theme-vendors.min.js' )}}"></script>
         <!-- setting -->
-        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="{{ HTML::script(  'js/main.js' )}}"></script>
     </body>
 </html>

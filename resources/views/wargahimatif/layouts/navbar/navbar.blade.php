@@ -50,7 +50,7 @@
               </li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto " href="#portfolio">Event</a></li>
+          <li><a class="nav-link scrollto " href="{{ url('/event') }}">Event</a></li>
           <li><a class="nav-link scrollto" href="#testimonials">Galeri</a></li>
           <li><a class="nav-link scrollto" href="#contact">Berita</a></li>
           <li><a class="nav-link scrollto" href="#contact">Login</a></li>
