@@ -51,9 +51,9 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto " href="{{ url('/event') }}">Event</a></li>
-          <li><a class="nav-link scrollto" href="{{ url('/event') }}">Galeri</a></li>
+          <li><a class="nav-link scrollto" href="{{ url('/galeri') }}">Galeri</a></li>
           <li><a class="nav-link scrollto" href="#contact">Berita</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Login</a></li>
+          <li><a class="nav-link scrollto" href="{{ url('/login') }}">Login</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>

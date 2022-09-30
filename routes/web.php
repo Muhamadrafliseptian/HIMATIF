@@ -36,3 +36,7 @@ Route::get('/event', function () {
 Route::get('/galeri', function () {
     return view('wargahimatif.menu.galeri.index');
 });
+
+Route::get('/login', function () {
+    return view('auth.login');
+});
