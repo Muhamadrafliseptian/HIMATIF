@@ -12,7 +12,7 @@
 <body id="login" class="bg-gradient-to-r from-purple-500 to-pink-500 ">
 <!-- partial:index.partial.html -->
 <div class="box-form">
-	<div class="left">
+	<div class="left">  
 		<div class="overlay">
 		<h1>HIMATIF JAYA !!!</h1>
 		<p>Himpunan Mahasiswa Teknik Informatika Politeknik Negeri Indramayu</p>
@@ -45,7 +45,7 @@
 		</div>
 			
 			<br>
-			<button>login</button>
+			<button>Login</button>
 	</div>
 	
 </div>
