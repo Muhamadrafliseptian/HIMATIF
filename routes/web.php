@@ -40,3 +40,7 @@ Route::get('/galeri', function () {
 Route::get('/login', function () {
     return view('auth.login');
 });
+
+Route::get("/templating_admin", function() {
+    return view("templating");
+});
