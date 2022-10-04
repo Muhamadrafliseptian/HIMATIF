@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\Akun\RoleController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -43,4 +44,13 @@ Route::get('/login', function () {
 
 Route::get("/templating_admin", function() {
     return view("templating");
+});
+
+Route::prefix("admin")->group(function() {
+    Route::get("/dashboard", function() {
+        return view("admin.dashboard");
+    });
+    Route::prefix("akun")->group(function() {
+        Route::resource("role", RoleController::class);
+    });
 });

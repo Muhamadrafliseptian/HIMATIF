@@ -42,6 +42,18 @@
                     <li><a title="500 Page" href="500.html"><span class="mini-sub-pro">500 Page</span></a></li>
                 </ul>
             </li>
+            <li id="removable">
+                <a class="has-arrow" href="#" aria-expanded="false">
+                    <span class="educate-icon educate-pages icon-wrap"></span> <span class="mini-click-non">Akun</span>
+                </a>
+                <ul class="submenu-angle page-mini-nb-dp" aria-expanded="false">
+                    <li>
+                        <a title="Login" href="{{ url('/admin/akun/role') }}">
+                            <span class="mini-sub-pro">Role</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
         </ul>
     </nav>
 </div>
